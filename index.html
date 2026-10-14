@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SWI Greenhouse</title>
+    <script type="module" crossorigin src="./assets/"greenhouse-By4wKstM.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/"surfaceLines-DZZ96x7r.js">
+    <link rel="modulepreload" crossorigin href="./assets/"heroObjects-B8X-IExR.js">
+    <link rel="modulepreload" crossorigin href="./assets/"heroBuild-CGWFMpS1.js">
+    <link rel="stylesheet" crossorigin href="./assets/"greenhouse-Cdcn9CqB.css">
+  </head>
+  <body>
+    <canvas id="scene" aria-hidden="true"></canvas>
+    <div class="switch">
+      <button type="button" id="switch-btn" aria-haspopup="listbox" aria-expanded="false" aria-label="Scene 01">01</button>
+      <ul id="switch-list" role="listbox" hidden>
+        <li><button type="button" role="option" data-mode="main" aria-selected="true" aria-label="Main">01</button></li>
+        <li><button type="button" role="option" data-mode="source" aria-label="Source">02</button></li>
+        <li><button type="button" role="option" data-mode="transfer" aria-label="Transfer">03</button></li>
+        <li><button type="button" role="option" data-mode="reuse" aria-label="Reuse">04</button></li>
+      </ul>
+    </div>
+  </body>
+</html>
